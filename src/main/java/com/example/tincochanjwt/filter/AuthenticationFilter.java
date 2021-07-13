@@ -1,6 +1,7 @@
 package com.example.tincochanjwt.filter;
 
 import com.example.tincochanjwt.entity.User;
+import com.example.tincochanjwt.service.LoginUserDetailService;
 import com.example.tincochanjwt.utils.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
